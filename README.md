@@ -1,6 +1,6 @@
 # Proyek Machine Learning
 
-Selamat datang di Repositori Proyek Machine Learning! Repositori ini berisi koleksi proyek machine learning yang dikembangkan untuk berbagai tujuan. Setiap proyek diorganisasi dalam direktori terpisah dan mencakup kode, data, dan dokumentasi terkait proyek tersebut.
+Selamat datang di Repositori Proyek Machine Learning! Repositori ini berisi koleksi proyek machine learning yang dikembangkan untuk menjadi portofolio pribadi. Setiap proyek diorganisasi dalam direktori terpisah dan mencakup kode, data, dan dokumentasi terkait proyek tersebut.
 
 <br>
 
@@ -19,14 +19,22 @@ Untuk memulai dengan proyek apa pun di repositori ini, ikuti langkah-langkah ber
    ```bash
    cd path/to/project-directory
 
-3. **Instal Dependensi:**
+3. **Membuat Virtual Environment:**
   
-   Setiap proyek mungkin memiliki dependensi tersendiri. Instal dengan menggunakan:
+   Karena setiap proyek memiliki dependensi tersendiri, maka disarankan untuk membuat virtual env dengan menggunakan:
+
+   ```bash
+   python -m venv .venv
+   .venv\Scripts\activate
+
+4. **Instal Dependensi:**
+  
+   Instal dengan package yang diperlukan menggunakan:
 
    ```bash
    pip install -r requirements.txt
 
-4. **Jalankan Proyek:**
+5. **Jalankan Proyek:**
   
    Buka file README.md pada masing-masing proyek untuk memahami konteks permasalahan setiap proyek.
 
